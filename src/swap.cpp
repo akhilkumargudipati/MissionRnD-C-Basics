@@ -10,8 +10,13 @@ ERROR CASES:
 
 NOTES:
 */
+#include<stdio.h>
+#include<conio.h>
 
 void swap(int *a, int *b)
 {
-	
+	int temp;
+	temp = *a;
+	*a = *b;
+	*b = temp;
 }
